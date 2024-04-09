@@ -1,3 +1,13 @@
 {
+  "compilerOptions": {
+		"target": "es6", 
+    "module": "NodeNext",
+		"lib": [ 
+			"dom",
+			"es6",
+			"dom.iterable",
+			"scripthost"
+		],
+  },
   "extends": "@repo/typescript-config/base.json"
 }
